@@ -1,12 +1,5 @@
-import { signIn } from "next-auth/react"
+import { SignIn } from "../../components"
 
-export default function SignIn() {
-  return (
-    <div>
-      <h1>SIGNIN</h1>
-      <button onClick={() => signIn("google")}>
-        LOG-IN
-      </button>
-    </div>
-  )
+export default function SignInPage() {
+  return <SignIn />
 }
