@@ -5,7 +5,9 @@ import { Button, Col, Row, Typography } from "antd"
 export const SignIn = () => {
   return (
     <Row align="middle" className="signIn">
-      <Col span={6} offset={9}>
+      <Col
+        xs={{ offset: 2, span: 20 }}
+        lg={{ offset: 9, span: 6 }}>
         <Row className="form">
           <Col span={24}>
             <Typography.Title level={1}>
